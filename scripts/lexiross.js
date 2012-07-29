@@ -1,11 +1,11 @@
 jQuery(document).ready(function() {
-    $("#about-heading").click(function() {
-        if ($("#about").hasClass("visible")) {
-            $("#about").blindUp();
-            $("#about").removeClass("visible");
+    jQuery("#about-heading").click(function() {
+        if (jQuery("#about").hasClass("visible")) {
+            jQuery("#about").blindUp();
+            jQuery("#about").removeClass("visible");
         } else {
-            $("#about").blindDown();
-            $("#about").addClass("visible");
+            jQuery("#about").blindDown();
+            jQuery("#about").addClass("visible");
         }
     });
 });
