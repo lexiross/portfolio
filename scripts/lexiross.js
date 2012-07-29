@@ -4,10 +4,12 @@ jQuery(document).ready(function() {
             jQuery("#about").slideUp();
             jQuery("#about").removeClass("visible");
             jQuery("#about-plus").html("+");
+            jQuery("#about-heading").removeClass("active");
         } else {
             jQuery("#about").slideDown();
             jQuery("#about").addClass("visible");
             jQuery("#about-plus").html("-");
+            jQuery("#about-heading").removeClass("active");
         }
     });
 
