@@ -47,11 +47,15 @@ header {
 }
 
 .box-heading a:hover {
-    color: #f10;
+    color: #f10 !important;
 }
 
 .box-heading a:visited {
     color: #000;
+}
+
+.active {
+    color: #f10 !important;
 }
 
 .plus {
