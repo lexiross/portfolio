@@ -1,18 +1,18 @@
 header {
     font-size: 72pt;
-    font-family: 'Over the Rainbow', cursive;
+    font-family: 'Squada One', cursive;
 }
 
 #container {
     position: fixed;
-    float: right;
-    width: 75%;
+    width: 85%;
+    right: 0;
 }
 
 .box {
     position: absolute;
     top: 0;
-    padding: 5px;
+    padding: 20px;
     /*TODO
      * border-image: url("assets/box.png") 100% 1 0 stretch
      */
@@ -41,12 +41,13 @@ header {
 
 .plus {
     font-size: 40pt;
-    font-family: 'Rogue Script', cursive;
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
-    right: 0;
+    right: 10%;
+    top: 0;
 }
 
 .expanding {
-    font-size: 15pt;
-    font-family: "Helvita Neue Light", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    font-family: "Open Sans", sans-serif;
 }
