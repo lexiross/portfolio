@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function() {
     $("#about-heading").click(function() {
         if ($("#about").hasClass("visible")) {
             $("#about").blindUp();
