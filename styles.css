@@ -13,7 +13,7 @@ header {
     position: absolute;
     top: 0;
     padding: 20px;
-    border-image: url("assets/border.png") 10% 0 10% 0 stretch
+    border-image: url("assets/border.png") 10% 0 10% 0 stretch;
 }
 
 #about-container {
@@ -37,12 +37,19 @@ header {
     width: 100%;
 }
 
+.box-heading a {
+    text-decoration: none;
+}
+
+.box-heading a:hover {
+    color: #f10;
+}
+
 .plus {
-    font-size: 40pt;
+    font-size: 25pt;
+    color: #aaa;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    right: 10%;
-    top: 0;
+    padding-left: 25px;
 }
 
 .expanding {
