@@ -13,9 +13,7 @@ header {
     position: absolute;
     top: 0;
     padding: 20px;
-    /*TODO
-     * border-image: url("assets/box.png") 100% 1 0 stretch
-     */
+    border-image: url("assets/box.png") 10% 0 10% 0 stretch
 }
 
 #about-container {
