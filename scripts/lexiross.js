@@ -8,3 +8,4 @@ jQuery(document).ready(function() {
             $("#about").addClass("visible");
         }
     });
+});
