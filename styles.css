@@ -8,6 +8,13 @@ header {
     font-family: 'Squada One', cursive;
 }
 
+subheader {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: #0a8;
+    font-family: 'Over the Rainbow', cursive;
+
 #container {
     position: fixed;
     width: 85%;
