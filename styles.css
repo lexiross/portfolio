@@ -30,7 +30,7 @@ header {
 #container {
     position: fixed;
     width: 70%;
-    right: 0;
+    left: 0;
     margin-top: 2px;
 }
 
