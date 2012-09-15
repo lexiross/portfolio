@@ -27,6 +27,11 @@ header {
     right: 30%;
 }
 
+#photo {
+    height: 50%;
+    width: 50%;
+}
+
 #container {
     position: fixed;
     width: 70%;
