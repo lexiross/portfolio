@@ -24,7 +24,7 @@ header {
 #header-photo {
     position: absolute;
     top: 2%;
-    right: 42%;
+    left: 42%;
 }
 
 #photo {
