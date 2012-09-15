@@ -8,20 +8,30 @@ header {
     font-family: 'Squada One', cursive;
 }
 
+#body-container {
+    padding-left: 5px;
+}
+
 #subheader {
-    position: absolute;
+    position: relative;
     font-size: 24pt;
     top: 8%;
-    right: 2%;
+    left: 2%;
     color: #0a8;
     font-family: 'Over the Rainbow', cursive;
 }
 
+#header-photo {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
 #container {
     position: fixed;
-    width: 80%;
+    width: 70%;
     right: 0;
-    margin-top: 25px;
+    margin-top: 2px;
 }
 
 .box {
@@ -56,6 +66,7 @@ header {
 
 .box-heading a {
     text-decoration: none;
+    color: #000;
 }
 
 .box-heading a:hover {
@@ -78,6 +89,10 @@ header {
 }
 
 .expanding {
+    padding-left: 5px;
+    border-left-style: dotted;
+    border-left-width: 1px;
+    border-left-color: #aaa;
     font-size: 11pt;
     font-family: "Open Sans", sans-serif;
     display: none;
