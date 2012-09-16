@@ -30,7 +30,14 @@ header {
 }
 
 #photo {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     height: 175px;
+}
+
+#photo img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 #container {
