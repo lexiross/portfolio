@@ -35,7 +35,7 @@ header {
     height: 175px;
 }
 
-#photo img:hover {
+#photo:hover {
     opacity: 1;
     filter: alpha(opacity=100);
 }
